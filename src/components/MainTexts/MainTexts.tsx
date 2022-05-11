@@ -12,7 +12,7 @@ export const MainTexts = () => {
           left: "-112px",
           top: "164px",
           background: "rgba(185, 127, 200, 0.62)",
-          opacity: "0.4",
+          opacity: "0.8",
           filter: "blur(500px)",
         }}
       ></div>
