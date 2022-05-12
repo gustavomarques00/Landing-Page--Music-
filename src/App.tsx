@@ -6,7 +6,8 @@ import { MainTexts } from "./components/MainTexts/MainTexts";
 import { MainImages } from "./components/MainImages/MainImages";
 import { TrendingMusic } from "./components/TrendingMusic/TrendingMusic";
 import { SomeArtists } from "./components/SomeArtists/SomeArtists";
-import { Carousel } from "react-bootstrap";
+import { Artists } from "./components/Artists/Artists";
+import { ArtistsP2 } from "./components/ArtistsP2/ArtistsP2";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         <MainImages />
         <TrendingMusic/>
         <SomeArtists/>
-        <Carousel>
+        <Artists />
+        <ArtistsP2 />
       </div>
     </ThemeProvider>
   );

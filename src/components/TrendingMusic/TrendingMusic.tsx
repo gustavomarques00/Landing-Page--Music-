@@ -35,10 +35,6 @@ export const TrendingMusic = () => {
               Trending Music
             </span>
           </Col>
-          <Col lg={3} className="d-flex align-items-center">
-            <img src="/images/Star.png" />
-            <span style={{ paddingLeft: "10px" }}>Trending Music</span>
-          </Col>
         </Row>
       </Container>
       <hr className="text-white"/>
