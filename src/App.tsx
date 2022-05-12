@@ -8,6 +8,9 @@ import { TrendingMusic } from "./components/TrendingMusic/TrendingMusic";
 import { SomeArtists } from "./components/SomeArtists/SomeArtists";
 import { Artists } from "./components/Artists/Artists";
 import { ArtistsP2 } from "./components/ArtistsP2/ArtistsP2";
+import { Genres } from "./components/Genres/Genres";
+import { Testimony } from "./components/Testimony/Testimony";
+import { DownloadApp } from "./components/DownloadApp/DownloadApp";
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
         <SomeArtists/>
         <Artists />
         <ArtistsP2 />
+        <Genres />
+        <Testimony />
+        <DownloadApp />
       </div>
     </ThemeProvider>
   );
